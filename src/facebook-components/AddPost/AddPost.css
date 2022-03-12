@@ -1,0 +1,32 @@
+
+  .gif-container{
+      height:auto;
+      width:auto;
+      overflow: auto ;
+  }
+  .result .list {
+    display:flex;
+    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: auto auto
+  }
+  .item{
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #eee;
+  }
+
+  .item-image{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+  }
+  

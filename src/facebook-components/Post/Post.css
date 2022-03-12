@@ -1,0 +1,9 @@
+.likes{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.post-container{
+    border: 2px red
+}
